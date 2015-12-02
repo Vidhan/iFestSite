@@ -1,0 +1,268 @@
+/*
+Template name: Fluid Solution
+Template URI: http://templates.arcsin.se/fluid-solution-website-template/
+Release date: 2006-09-06
+Description: Totally liquid three-column layout, clean and simple.
+Author: Viktor Persson
+Author URI: http://arcsin.se/
+
+This template is licensed under a Creative Commons Attribution 2.5 License:
+http://templates.arcsin.se/license/
+*/
+
+/* standard elements */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+a, .clickable {
+	text-decoration: none;
+	cursor:pointer;
+}
+P{
+	text-align:justify;
+}
+/*body {
+	background: #FFF url(img/bg.gif) repeat-x;
+	color: #444;
+	font: normal 62.5% "Lucida Sans Unicode",Verdana,sans-serif;
+	padding-top: 40px;
+}*/
+p,code,ul {
+	font-size: 1.2em;
+	padding-bottom: 1.2em;
+}
+li {
+	list-style: none;
+}
+h1 {
+	font-size: 1.4em;
+}
+code {
+	background: url(img/bgcode.gif);
+	border: 1px solid #F0F0F0;
+	border-left: 6px solid #F06;	
+	color: #444;
+	display: block;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+blockquote {
+	background: #FBFCF5;
+	border-bottom: 1px solid #EED;
+	border-top: 1px solid #EED;
+	color: #444;
+	display: block;
+	font: normal 0.9em Verdana,sans-serif;
+	margin-bottom: 12px;
+	padding: 12px;
+}
+/*h1,h2,h3,h4 {
+	font: normal 1.2em "Trebuchet MS",sans-serif;
+	color: #F06;
+}
+*/
+.header h1{
+	letter-spacing:5px;
+}
+.content{	font-size:12px;
+			font-family:Geneva, Arial, Helvetica, sans-serif;
+			line-height:20px;}
+.content>h1{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.header div{
+	font-size:13px;
+	letter-spacing:normal;
+}
+/* misc */
+.clearer {
+	clear: both;
+}
+
+/* header */
+.header {
+	background: url(img/stripes.gif) no-repeat;
+	border-bottom: 1px solid #EEE;
+	height: 160px;
+	margin-bottom: 24px;
+}
+.header h1 {
+	color: #222;
+	font: normal 4em sans-serif;
+	margin-top: 40px;
+	text-align: center;
+}
+.header h2 {
+	border-top: 1px solid #EEE;
+	color: #666;
+	text-align: right;
+}
+.header h2 span {
+	background: #222;
+	color: #EEE;
+	padding: 0 6px;
+}
+
+/* left side (main content) */
+.left {
+	margin: 0 42% 20px 3%;
+}
+.content ul.contest-rules li{
+	padding:2px 0;
+}
+.content .descr {
+	color: #06F;
+	font-size: 1.2em;
+	margin-bottom: 6px;
+}
+.content li {
+	list-style: url(img/li.gif);
+	margin-left: 18px;
+}
+.content h1 {
+	font-size: 2.4em;
+	margin-bottom: 4px;
+}
+.content a, .clickable,.footer a {
+	cursor:pointer;
+	color: #F06;
+	text-decoration: none;
+}
+.content a:hover, .clickable:hover, .footer a:hover {
+	color: #444;
+	border-bottom: 1px solid #F06;
+}
+
+/* nav & subnavigation */
+.nav,.right {
+	margin-bottom: 20px;
+	position: absolute;
+	top: 40px;
+}	
+
+/* navigation */
+.nav {
+	right: 23%;
+	text-align: center;
+	width: 17%;
+}
+.nav .logo {
+	background: url(img/ieee_125_small.jpg)no-repeat center center;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #EEE;
+	height: 159px;	
+}
+
+.nav h1 {
+	color: #F60;
+	margin: 12px 0;
+}
+.nav li {
+	border-bottom: 1px solid #EEE;
+}
+.nav li a {
+	color: #888;
+	display: block;
+	font: normal 1.4em serif;
+	padding: 8px 0;
+}
+.nav li a:hover {
+	background: #FAFAFA;
+	color: #F06;
+}
+
+/* subnav */
+.right {
+	background: #222;
+	right: 3%;
+	width: 18%;
+}
+.subnav {
+	padding: 12px 12px 0;
+}
+.subnav h1 {
+	color: #F06;
+	font-size: 1.4em;
+	height: 20px;
+	margin-left: 8px;
+}
+.subnav ul {
+	margin: 0 0 16px;
+	padding: 0;
+}
+.subnav li { 
+	list-style: none;
+	margin: 0;
+	border-bottom: 1px solid #333;
+}
+.subnav li a {	
+	color: #999;
+	display: block;
+	font-size: 0.9em;
+	padding: 3px 6px 3px 8px;
+	text-decoration: none;
+}
+.subnav td, .subnav th{
+	color:#999;
+	text-align:left;
+	font-weight:normal;
+	padding: 5px 0px 3px;
+	font-size:1.2em;
+	border-bottom: 1px solid #333;
+}
+.subnav li a:hover {
+	color: #DDD;
+}
+
+/* round edges */
+.roundtl,.roundtr,.roundbl,.roundbr {
+	background: url(img/round.gif);
+	height: 16px;
+	width: 14px;
+}
+.roundtl,.roundbl {
+	float: left;
+}
+.roundtr,.roundbr {
+	float: right;
+}
+.roundtr {
+	background-position: right top;
+}
+.roundbr {
+	background-position: right bottom;
+}
+.roundbl {
+	background-position: left bottom;
+}
+
+/* footer */
+.footer {
+	color: #666;
+	border-top: 1px solid #EEE;
+	font: normal 1em Verdana,sans-serif;
+	margin: 0 42% 0 3%;
+	padding: 8px 6px;
+	margin-top:40px;
+}
+#Register
+{
+	font-size: 13pt; display:block; width:2cm; height:1cm; background-color:black; color:#FFF;
+}
+
+#Register:hover
+{
+	background-color:#C00;
+}
+#t1
+{
+	font-size:15px;
+	height:0.8cm;
+	width:5cm;
+	
+}

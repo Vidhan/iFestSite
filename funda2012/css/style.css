@@ -1,0 +1,131 @@
+/* 
+	project:  internet studio
+	author:   luka cvrk (www.solucija.com) 
+*/
+
+*{ margin: 0; padding: 0; }* 
+.gboxtop { clear: both; height: 8px; background:#735313; color: #FFF; }
+.gbox { background: #735313; color: #FFF; padding: 0px 13px 0px 13px; margin: 0 0 20px 0;  height:25px;}
+.gbox p { padding: 0px 0; margin: 0;}
+body { font: .8em Tahoma, "Trebuchet MS", Tahoma, sans-serif; line-height: 1.6em; background: #fff url(images/bg.gif) repeat-x; color: #8E8E91; }
+a {	color: #EB0000;	background: inherit; text-decoration: none; }
+a:hover { color: #808080; background: inherit; text-decoration: underline; }
+p { margin: 0 0 15px 0; }
+h1 { font: normal 2.8em Georgia, "Times New Roman", Arial; color: #444; }
+h2 { font: normal 1.7em Georgia, "Times New Roman", Arial; margin: 0 0 10px; padding: 0 0 3px; color: #333; border-bottom: 1px solid #eee; }
+img { border: 0; }
+#content { width: 900px; margin: 10px auto;position: relative; }
+#logo1 {
+	width: 600px;
+	float: left;
+	margin-top: 70px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+	#logo1 p { margin: 0; }
+#logo2 {
+	width: 200px;
+	float: left;
+	margin-top: -10px;
+	
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+	#logo2 p { margin: 0; }
+#menu { float: left; padding: 40px 0 0; margin: 0 0 38px; width: 100px ; }
+	#menu li { font-size: 1.1em; display:block;  font-weight: bold; background-color:#b69a6a; line-height:50px; }
+	#menu li a { float: left; width: 150px; height:40px;  border-radius: 3px; padding: 2px 0 7px; text-align: center; margin: 0 0 0 10px; color:#000;   border-bottom:1px solid #000; border-top:1px solid #000;}
+	#menu li a.current {  background-color:#a67004; color: #000; }
+	#menu li a:hover { text-decoration: none; color: #000; background:#735313;  }
+.clear { clear: both; background: #FFFFFF }
+.caption { padding: 20px 0 0 18px; height: 35px; color: #000; font-size:30px; font-weight:bold;}
+	.caption p { margin: 0; }
+#left { margin: 0 0 20px; clear: left; width: 270px; float: left; }
+#left1 { margin: 0 0 20px; clear: left; width: 150px; float: left; }
+.box { background: #eee; }
+#menu1
+{
+float: left; padding: 40px 0 0; margin: 0 0 38px; width: 70px ;
+}
+#menu1 li{ font-size: 1.1em; display:block;  font-weight: bold; background-color:#C00; line-height:25px; }
+#menu1 li a { float: left; width: 100px; height:20px;  border-radius: 3px; padding: 2px 0 7px; text-align: center; margin: 0 0 0 10px; color:#FFF;  border-bottom:1px solid #000; border-top:1px solid #000;}
+	#menu1 li a.current {  background-color:#000; color: #fff; }
+	#menu1 li a:hover { text-decoration: none; color: #fff; background:#900;  }
+#left img { padding: 6px; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; background: #fff;}
+.smallthumb { width: 109px; }
+#center {
+	width: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 100px;
+}
+#center1 {
+	width: 700px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 100px;
+}
+#center2 {
+	width: 350px;
+	float: left;
+	
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 100px;
+}
+
+#right {
+	float: right;
+	width: 270px;
+}
+#right1 {
+	float: right;
+	width: 100px;
+	margin-top:-40px;
+}
+	.date { font-size: .8em; border-top: 1px solid #eee; padding: 5px 0 0; }
+.box { background: #eee; padding: 10px; }
+.box li { list-style: none; border-bottom: 1px dotted #ccc; line-height: 26px; }
+.box li a { padding: 0 5px; }
+#footer { font-size: .84em; clear: both; padding: 15px; background: #eee; }
+#footer a { color: #444; }
+#Name
+{
+	width:150px;
+}
+#Name2
+{
+	width:150px;
+}
+#submit
+{
+	width:70px;
+	height:30px;
+	background-color:#a67004;
+	color:#FFF;
+	font-weight:bold;
+}
+#submit:hover
+{
+	color:black;
+	border-radius:3px;
+}
+#startgame
+{
+	width:100px;
+	height:40px;
+	background-color:#C00;
+	color:#FFF;
+	font-weight:bold;
+}
+#startgame:hover
+{
+	color:black;
+	border-radius:3px;
+}
